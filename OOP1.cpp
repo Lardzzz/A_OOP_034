@@ -48,6 +48,8 @@ int main() {
 	Matakuliah mk;
 
 	mhs.inputdata();
-	mhs.tampildata()
+	mhs.tampildata();
 
+	mk.inputdata();
+	mk.tampildata();
 }
