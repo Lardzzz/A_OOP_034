@@ -20,11 +20,19 @@ public:
 
 class Matakuliah {
 private:
-	string namamk;
 	string kodemk;
+	string namamk;
 	int sks;
 public:
 	void inputdata();
 	void tampildata();
 };
 
+void Matakuliah::inputdata() {
+	cout << "\nMasukkan Kode Mata Kuliah : ";
+	cin >> kodemk;
+	cout << "Masukkan Nama Mata Kuliah : ";
+	cin >> namamk;
+	cout << "Masukka SKS Mata Kuliah : ";
+	cin >> sks;
+}
