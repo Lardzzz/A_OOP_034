@@ -23,4 +23,8 @@ private:
 	string namamk;
 	string kodemk;
 	int sks;
+public:
+	void inputdata();
+	void tampildata();
 };
+
