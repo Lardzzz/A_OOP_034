@@ -36,3 +36,9 @@ void Matakuliah::inputdata() {
 	cout << "Masukka SKS Mata Kuliah : ";
 	cin >> sks;
 }
+
+void Matakuliah::tampildata() {
+	cout << "\nKodeMK : " << kodemk << endl;
+	cout << "NamaMK : " << namamk << endl;
+	cout << "Jumlah SKS : " << sks << endl;
+}
